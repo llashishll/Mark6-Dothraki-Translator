@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark 6 Dothraki Translator</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
- <center>
-    <h1>Dothraki Translator</span></h1>
-    
-    <textarea placeholder="Enter your text here !" id="int-text" cols="60" rows="8"></textarea>
-</center>
-    
-    <center><button id="btn-translate" style="margin-top:2rem";>Translate</button></center>
-    
-    <center><textarea style ="margin-top:2rem ;" placeholder = "Translated text will be shown here !"id="out-text" cols="60" rows="8"></textarea></center>
 
+    <header>
+        <h1 id="title-head" #>Dothraki Translator</h1>
+    </header>
+    <main>
+        <textarea class="textbox" placeholder="Enter your text here !" id="int-text" cols="60" rows="10"></textarea>
+    </main>
 
- <script src ="app.js"></script>
+    <button id="btn-translate" style="margin-top:2rem" ;>Translate</button>
+
+    <textarea class="textbox" style="margin-top:2rem ;" placeholder="Translated text will be shown here !" id="out-text"
+        cols="60" rows="10"></textarea>
+    </main>
+
+    <script src="app.js"></script>
+    <footer id=footer>Wanna know what Khal Drogo calls Daenerys other than "my moon and the stars"? Checkout our Dothraki transaltor service and find out for yourself.
+    </footer>
 </body>
+
 </html>
